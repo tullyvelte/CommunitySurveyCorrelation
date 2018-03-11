@@ -6,7 +6,9 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Latest compiled and minified CSS & JS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
   <style>
@@ -16,11 +18,6 @@
 	  fill: none;
 	  stroke: #000;
 	  shape-rendering: crispEdges;
-	}
-	
-	.point {
-	  fill: steelblue;
-	  stroke: #000;
 	}
 	
 	</style>
@@ -36,9 +33,10 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12  col-md-9 col-md-offset-0">
-				<div class="plot">
+				
 					<!-- Students: Add a responsive iframe here that includes the d3.html file -->
-				</div>
+					<iframe src="d3.html" title="d3 scatter" width="900" height="600"></iframe>
+				
 			</div>
 		</div>
 		<div class="row">
@@ -61,8 +59,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="assets/js/app.js"></script>
+	<!-- <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="assets/js/app.js"></script> -->
 		<!-- Footer-->
 	<div id="footer">
 		<p>A UCBx Data Bootcamp Spot by Tully Velte</p>
